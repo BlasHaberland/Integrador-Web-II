@@ -1,7 +1,9 @@
 .navbar{
-    margin-bottom: 10px;
-    background-color: #6b6b6b;
+    margin:0;
+    background-color: #d7d3d3;
     display: flex;
-    justify-content:space-around
+    justify-content:space-around;
+    align-items: center;
+    border-radius: 0 0 5px 5px ;
 }
 

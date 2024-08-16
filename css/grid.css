@@ -1,6 +1,6 @@
 .grid-container {
     display: grid;
-    gap: 0 10px;
+    gap: 5px;
     grid-template:
         "header"
         "navbar" 50px
@@ -23,7 +23,6 @@
 
     .main {
         grid-area: main;
-        background-color: #fafac6;
     }
 
     .footer {
@@ -32,12 +31,13 @@
     }
 
     @media (min-width: 768px) {
+        gap: 0 10px;
         grid-template:
             "header header" 150px
             "navbar navbar" 50px 
             "sidebar main" auto
             "footer footer" 5px/
-            200px auto
+            250px auto
         ;
     }
 
