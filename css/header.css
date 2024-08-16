@@ -1,0 +1,16 @@
+.header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/Metropolitan_Museum.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1{
+    color: #f87373;
+    font-size: 50px;
+}
+
+

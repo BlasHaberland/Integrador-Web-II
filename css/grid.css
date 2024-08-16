@@ -10,12 +10,10 @@
 
     .header {
         grid-area: header;
-        background-color: #2936aa;
     }
 
     .navbar {
         grid-area: navbar;
-        background-color: #c4c4c4;
     }
 
     .sidebar {
@@ -30,14 +28,15 @@
 
     .footer {
         grid-area: footer;
-        background-color: #464646;
+
     }
 
     @media (min-width: 768px) {
         grid-template:
             "header header" 150px
-            "navbar navbar" 50px "sidebar main" auto
-            "footer footer" 50px/
+            "navbar navbar" 50px 
+            "sidebar main" auto
+            "footer footer" 5px/
             200px auto
         ;
     }
