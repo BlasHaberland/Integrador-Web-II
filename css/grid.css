@@ -1,0 +1,44 @@
+.grid-container {
+    display: grid;
+    gap: 5px;
+    grid-template:
+        "header"
+        "navbar" 50px
+        "sidebar" 100px
+        "main" 100%
+        "footer" 50px;
+
+    .header {
+        grid-area: header;
+    }
+
+    .navbar {
+        grid-area: navbar;
+    }
+
+    .sidebar {
+        grid-area: sidebar;
+        background-color: #9fd565;
+    }
+
+    .main {
+        grid-area: main;
+    }
+
+    .footer {
+        grid-area: footer;
+
+    }
+
+    @media (min-width: 768px) {
+        gap: 0 10px;
+        grid-template:
+            "header header" 150px
+            "navbar navbar" 50px 
+            "sidebar main" auto
+            "footer footer" 5px/
+            250px auto
+        ;
+    }
+
+}
